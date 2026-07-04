@@ -22,7 +22,7 @@ export default function Navbar() {
                 </a>
 
                 {/* Links */}
-                <nav className="flex items-center gap-8">
+                <nav className="hidden md:flex items-center gap-8">
                     <a href="#sobre" className="text-xs tracking-widest text-bone hover:text-bone transition-colors uppercase">Sobre</a>
                     <a href="#servicos" className="text-xs tracking-widest text-bone hover:text-bone transition-colors uppercase">Serviços</a>
                     <a href="#galeria" className="text-xs tracking-widest text-bone hover:text-bone transition-colors uppercase">Galeria</a>

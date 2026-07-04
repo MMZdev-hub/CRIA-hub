@@ -15,7 +15,7 @@ export default function Galeria() {
                     O que sai da CRIA
                 </h2>
 
-                <div className="grid grid-cols-3 gap-2">
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                     <img 
                         src="/AUN06565.jpg"
                         className="bg-surface col-span-2 aspect-square object-cover w-full h-full" />

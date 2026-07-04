@@ -27,7 +27,7 @@ export default function Contato() {
                     Vamos criar juntos ?
                 </h2>
 
-                <div className="grid grid-cols-2 gap-14">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-14">
 
                 {/* Coluna esquerda - formuário */}
                 <div className="flex flex-col gap-6">

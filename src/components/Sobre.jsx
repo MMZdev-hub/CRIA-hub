@@ -11,7 +11,7 @@ export default function Sobre() {
                     -01 / Sobre
                 </p>
 
-                <div className="grid grid-cols-2 gap-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
 
                     <div>
                         <h2 className="font-grotesk text-5xl font-bold text-bone leading-tight mb-8">
@@ -44,7 +44,7 @@ export default function Sobre() {
                     <div className="flex flex-col gap-8">
 
                         {/* Fotos da dupla fundadora*/}
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="aspect-[3/4] overflow-hidden">
                                 <img
                                     src="/IMG_9939.JPG.jpeg"
@@ -63,7 +63,7 @@ export default function Sobre() {
                         </div>
 
                         {/* Grid de stats*/}
-                        <div className="grid grid-cols-2 gap-4 w-full">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                             <div className="border border-surface p-5">
                                 <p className="font-grotesk text-3xl font-bold text-silver mb-1">1</p>
                                 <p className="font-mono text-xs text-muted uppercase tracking-wide">Ano no mercado</p>

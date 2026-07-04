@@ -22,7 +22,7 @@ export default function Projetos() {
                     Nossos trabalhos
                 </h2>
 
-                <div className="grid grid-cols-3 gap-6 mt-12">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                 {projetos.map((p) => (
                     <div key={p.titulo}>
                         <img src={p.img} alt={p.titulo} className="aspect-[3/4] object-cover w-full" />

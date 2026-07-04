@@ -54,7 +54,7 @@ export default function Servicos() {
                 </h2>
 
                 {/* Grid de cards */}
-                <div className="grid grid-cols-3 gap-px bg-surface">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-surface">
                     {servicos.map((s) => (
                         <div key={s.num} className="bg-void p-8 hover:bg-surface transition-colors duration-300">
                             <span className="font-mono text-xs text-muted tracking-widest">{s.num}</span>
