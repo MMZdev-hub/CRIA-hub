@@ -1,9 +1,9 @@
 import { useScrollReveal } from "../hooks/useScrollReveal"
 
 const projetos = [
-    { img: '/IMG_5848.jpg', tag: 'Música', titulo: 'SALVADORH', desc: 'Cobertura fotográfica e audiovisual no coração da cena musical de Salvador.' },
-    { img: '/DSC01766.jpg', tag: 'Evento', titulo: 'Agonia de Puto', desc: 'Registro do evento, capturando a energia e a cultura da noite baiana.' },
-    { img: '/IMG_6953.jpeg', tag: 'Moda', titulo: 'VRY Co.', desc: 'Editorial de moda com identidade urbana e estética periférica.' },
+    { img: '/IMG_5848 (1).jpg', tag: 'Música', titulo: 'SALVADORH', desc: 'Cobertura fotográfica e audiovisual no coração da cena musical de Salvador.' },
+    { img: '/DSC01766 (1).jpg', tag: 'Evento', titulo: 'Agonia de Puto', desc: 'Registro do evento, capturando a energia e a cultura da noite baiana.' },
+    { img: '/IMG_6953.jpg', tag: 'Moda', titulo: 'VRY Co.', desc: 'Editorial de moda com identidade urbana e estética periférica.' },
   ]
 
 export default function Projetos() {

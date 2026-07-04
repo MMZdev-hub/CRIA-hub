@@ -58,7 +58,7 @@ Como um dos fundadores da CRIA, minha atuação vai além da captação tradicio
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="aspect-[3/4] overflow-hidden">
                                 <img
-                                    src="/IMG_9939.JPG.jpeg"
+                                    src="/IMG_9939.JPG.jpg"
                                     alt="Vanner Carvalho"
                                     loading="lazy"
                                     decoding="async"
@@ -68,7 +68,7 @@ Como um dos fundadores da CRIA, minha atuação vai além da captação tradicio
 
                             <div className="aspect-[3/4] overflow-hidden">
                                 <img
-                                    src="/IMG_1687.JPG.jpeg"
+                                    src="/IMG_1687.JPG.jpg"
                                     alt="Jean Jorge"
                                     loading="lazy"
                                     decoding="async"
