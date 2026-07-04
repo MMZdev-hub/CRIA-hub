@@ -47,7 +47,7 @@ export default function Sobre() {
 Como um dos fundadores da CRIA, minha atuação vai além da captação tradicional de imagens, trabalho na construção de um centro estratégico de identidade e posicionamento. Meu foco é traduzir a essência de marcas, artistas, projetos de moda e eventos em narrativas visuais autênticas e de alto impacto."
                             </p>
                             <p className="font-mono text-xs text-muted tracking-widest mt-3 uppercase">
-                                — Vanner Carvalho, Co-fundador
+                                — Jean Jorge, Co-fundador
                             </p>
                         </div>
                     </div>
