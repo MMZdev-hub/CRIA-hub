@@ -7,6 +7,8 @@ export default function Hero() {
                 <img
                     src="/DSC03557.jpg"
                     alt="Salvador"
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover object-center"
                 />
             </div>

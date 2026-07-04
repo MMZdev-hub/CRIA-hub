@@ -25,7 +25,12 @@ export default function Projetos() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                 {projetos.map((p) => (
                     <div key={p.titulo}>
-                        <img src={p.img} alt={p.titulo} className="aspect-[3/4] object-cover w-full" />
+                        <img 
+                        src={p.img} 
+                        alt={p.titulo} 
+                        loading="lazy"
+                        decoding="async"
+                        className="aspect-[3/4] object-cover w-full" />
                         
                         <div className="pt-4">
                             <span className="font-mono text-xs text-silver tracking-widest uppercase">

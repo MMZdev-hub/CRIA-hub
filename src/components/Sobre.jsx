@@ -49,6 +49,8 @@ export default function Sobre() {
                                 <img
                                     src="/IMG_9939.JPG.jpeg"
                                     alt="Vanner Carvalho"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover"
                                 />
                             </div>
@@ -57,6 +59,8 @@ export default function Sobre() {
                                 <img
                                     src="/Studio 330_ 📷Matheus L8  9.jpg.jpeg"
                                     alt="Jean Jorge"
+                                    loading="lazy"
+                                    decoding="async"
                                     className="w-full h-full object-cover"
                                 />
                             </div>

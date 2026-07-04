@@ -18,18 +18,28 @@ export default function Galeria() {
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
                     <img 
                         src="/AUN06565.jpg"
+                        loading="lazy"
+                        decoding="async"
                         className="bg-surface col-span-2 aspect-square object-cover w-full h-full" />
                     <img
                         src="/DSC07690.JPG"
+                        loading="lazy"
+                        decoding="async"
                         className="bg-surface row-span-2 min-h-full object-cover w-full h-full" />
                     <img
                         src="/DSC07746.JPG"
+                        loading="lazy"
+                        decoding="async"
                         className="bg-surface aspect-square object-cover w-full h-full" />
                     <img
                         src="/DSC01710.jpg"
+                        loading="lazy"
+                        decoding="async"
                         className="bg-surface aspect-square object-cover w-full h-full" />
                     <img
                         src="/DSC01446.jpg"
+                        loading="lazy"
+                        decoding="async"
                         className="bg-surface col-span-2 aspect-square object-cover w-full h-full" />
                 </div>
             </div>    
