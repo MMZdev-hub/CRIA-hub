@@ -39,6 +39,17 @@ export default function Sobre() {
                                 — Vanner Carvalho, Co-fundador
                             </p>
                         </div>
+
+                        <div className="mt-8 pl-6 border-l-2 border-silver/30">
+                            <p className="text-bone italic leading-relaxed">
+                                "Jean Jorge, fotógrafo e filmmaker com mais de cinco anos no mercado audiovisual, transitando principalmente entre Bahia e Rio de Janeiro.
+
+Como um dos fundadores da CRIA, minha atuação vai além da captação tradicional de imagens, trabalho na construção de um centro estratégico de identidade e posicionamento. Meu foco é traduzir a essência de marcas, artistas, projetos de moda e eventos em narrativas visuais autênticas e de alto impacto."
+                            </p>
+                            <p className="font-mono text-xs text-muted tracking-widest mt-3 uppercase">
+                                — Vanner Carvalho, Co-fundador
+                            </p>
+                        </div>
                     </div>
 
                     <div className="flex flex-col gap-8">
@@ -57,7 +68,7 @@ export default function Sobre() {
 
                             <div className="aspect-[3/4] overflow-hidden">
                                 <img
-                                    src="/Studio 330_ 📷Matheus L8  9.jpg.jpeg"
+                                    src="/IMG_1687.JPG.jpeg"
                                     alt="Jean Jorge"
                                     loading="lazy"
                                     decoding="async"
