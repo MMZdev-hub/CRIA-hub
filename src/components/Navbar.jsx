@@ -25,7 +25,6 @@ export default function Navbar() {
                 <nav className="hidden md:flex items-center gap-8">
                     <a href="#sobre" className="text-xs tracking-widest text-bone hover:text-bone transition-colors uppercase">Sobre</a>
                     <a href="#servicos" className="text-xs tracking-widest text-bone hover:text-bone transition-colors uppercase">Serviços</a>
-                    <a href="#galeria" className="text-xs tracking-widest text-bone hover:text-bone transition-colors uppercase">Galeria</a>
                     <a href="#contato" className="text-xs tracking-widest text-bone hover:text-bone transition-colors uppercase">Contato</a>
                 </nav>
                 
