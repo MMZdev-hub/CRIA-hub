@@ -5,7 +5,7 @@ export default function Hero() {
 
             <div className="absolute inset-0">
                 <img
-                    src="/DSC03557 (1).jpg"
+                    src="/optimized/DSC03557 (1).webp"
                     alt="Salvador"
                     loading="lazy"
                     decoding="async"

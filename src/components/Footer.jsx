@@ -2,7 +2,7 @@ export default function Footer() {
     return (
         <footer className="border-t border-surface py-8 px-6 md:px-12 flex flex-col md:flex-row items-center justify-between gap-4">
             <div>
-                <img src="/Logo_CRIA.png" alt="CRIA HUB Criativo" className="h-16 w-auto" />
+                <img src="/optimized/Logo_CRIA.webp" alt="CRIA HUB Criativo" className="h-16 w-auto" />
             </div>
 
             <div>

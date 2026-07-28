@@ -10,7 +10,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "convert-images": "node scripts/convert-images.cjs",
+    "update-images": "node scripts/update-image-paths.cjs"
   },
   "dependencies": {
     "react": "^19.1.1",

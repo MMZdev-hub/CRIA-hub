@@ -18,7 +18,7 @@ export default function Navbar() {
 
                 {/* Logo */}
                 <a href="#">
-                    <img src="/Logo_CRIA.png" alt="CRIA HUB Criativo" className="h-16 w-auto" />
+                    <img src="/optimized/Logo_CRIA.webp" alt="CRIA HUB Criativo" className="h-16 w-auto" />
                 </a>
 
                 {/* Links */}
