@@ -1,23 +1,24 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from 'react'
 
 export function useScrollReveal() {
-    const [isVisible, setIsVisible] = useState(false)
-    const ref = useRef(null)
+  const [isVisible, setIsVisible] = useState(false)
+  const ref = useRef(null)
 
-    useEffect(() => {
-        const observer = new IntersectionObserver(
-            ([entry]) => {
-                if (entry.isIntersecting) {
-                    setIsVisible(true)
-                }
-            },
-            { threshold: 0.15 }
-        )
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true)
+          observer.disconnect()
+        }
+      },
+      { threshold: 0.05, rootMargin: '0px 0px -50px 0px' }
+    )
 
-        if (ref.current) observer.observe(ref.current)
+    if (ref.current) observer.observe(ref.current)
 
-        return () => observer.disconnect()
-    }, [])
+    return () => observer.disconnect()
+  }, [])
 
-    return { ref, isVisible }
+  return { ref, isVisible }
 }
